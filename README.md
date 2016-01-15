@@ -1,7 +1,7 @@
 # ![ImagicalMine](http://i.imgur.com/6Hlm8mn.gif)
 
 ## Project Addons:
-- [Official Forums](http://forums.imagicalmine.net)
+- [Official Forums](http://forums.imagicalmine.me)
 - [![Travis Build](https://travis-ci.org/ImagicalCorp/ImagicalMine.svg)](https://travis-ci.org/ImagicalCorp/ImagicalMine)
 - [![ReadTheDocs Build](https://img.shields.io/badge/docs-latest-brightgreen.svg?style=flat)](http://imagicalmine.readthedocs.org)
 
@@ -19,6 +19,11 @@
 - Some of the code in ImagicalMine is taken from the [@hmy2001's](https://github.com/hmy2001) project. Code taken from [PocketMine-0.13.x](https://github.com/HmyTeamOrganization/PocketMine-0.13.x) was used for an experimental skin fix during the MCPE 0.13.0 update.
 - Some of the code in ImagicalMine is taken from the [iTXTech's](https://github.com/iTXTech) project. Code taken from [Genisys](https://github.com/iTXTech) was used for a variety of bug fixes and patches and new feature updates.
 
+## [CRITICAL]: Please remove XDebug first!
+
+You can comment out zend_extension=php_xdebug in your php.ini or recompile PHP without xdebug.
+There is also a switch under debug in pocketmine.yml to force enable xdebug.
+
 ## Can I test ImagicalMine before I download and use it?
 Sure, why not? Simply join one of the servers below to see what ImagicalMine can do! You'll be amazed!<br>
 
@@ -27,6 +32,7 @@ Sure, why not? Simply join one of the servers below to see what ImagicalMine can
 | **RumBenCraft**                                                    | **play.rumbencraft.net** | **19132** |
 | **DarkRealms**                                                     | **play.dr-pvp.us**       | **19132** |
 | **ImagicalMine 0.13.1 Creative (Latest build every day at 12 am)** | **WolvesFortress.de**        | **19133** |
+| **InfinityBox Network  (Latest build every day at 12 - 1 - 3 pm)** | **play.infinitybox.ml**  | **19132**
 
 
 **Please do not submit your server via PR. You will be banned from the Imagical Corporation and all of its repositories if you do.**<br>
@@ -69,6 +75,7 @@ You can also go to the Jenkins server by clicking the picture below.<br>
 Some MCPE server hosting providers support ImagicalMine as a version for their customers to download. The following list shows all of the providers who support ImagicalMine as a version to download for use on their servers:
 * __[HostMyServers](http://hostmyservers.com)__
 * __[HostingItAll](http://hostingitall.com)__
+* __[InfinityBox](http://infinitybox.ml)__
 
 **If you are a MCPE server hosting provider and you support ImagicalMine as a version available for download and to use as part of your service, contact us and we'll happily add your business to the list.**
 
